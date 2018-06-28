@@ -99,7 +99,7 @@ flavor_text_base:
   width: 900
   height: 200
   markup: true
-  font: 'Verdana, Italic 4'
+  font: 'Verdana,Italic 4'
   color: "#111111"
   align: :center
   valign: :top
@@ -110,7 +110,7 @@ illus_text_base:
   width: 650
   height: 100
   markup: true
-  font: 'Verdana, Italic 5'
+  font: 'Verdana,Italic 5'
   color: "#111111"
   align: :right
   valign: :middle

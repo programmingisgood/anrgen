@@ -3,6 +3,7 @@ require 'squib'
 puts Squib::VERSION
 
 require 'open-uri'
+require 'os'
 
 # Make sure your Google Sheet is set to "Anyone with the link can view".
 # Do this by clicking the blue Share button in the upper-right hand corner,
@@ -37,6 +38,20 @@ layouts = [ 'global_layout.yml', 'program_layout.yml', 'operation_layout.yml',
             'resource_layout.yml', 'ice_layout.yml', 'agenda_layout.yml', 'runnerid_layout.yml',
             'corpid_layout.yml' ]
 Squib::Deck.new(cards: numCards, width: cardWidth, height: cardHeight, dpi: dpi, layout: layouts) do
+    if OS.mac?
+        @layout.each { | lo, vals |
+            vals.each { | k, v |
+                if k.eql?('font')
+                    font = @layout[lo][k].split(/ /)
+                    name_and_type = font[0..-2].join(' ')
+                    original_size = font[-1]
+                    new_size = original_size.to_i * 8
+                    @layout[lo][k] = name_and_type + ' ' + new_size.to_s
+                end
+            }
+        }
+    end
+
     background color: '#ffffff00'
 
     # Artwork
