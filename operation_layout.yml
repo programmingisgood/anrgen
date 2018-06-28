@@ -1,0 +1,69 @@
+# Program layout
+
+card_template_operation_hb:
+  extends: card_template_base
+  file: "card_templates/operation/operation_haas.png"
+
+card_template_operation_jinteki:
+  extends: card_template_base
+  file: "card_templates/operation/operation_jinteki.png"
+
+card_template_operation_nbn:
+  extends: card_template_base
+  file: "card_templates/operation/operation_nbn.png"
+
+card_template_operation_neutral:
+  extends: card_template_base
+  file: "card_templates/operation/operation_neutral.png"
+
+card_template_operation_weyland:
+  extends: card_template_base
+  file: "card_templates/operation/operation_weyland.png"
+
+operation_artwork:
+  extends: artwork_base
+
+operation_name_text:
+  extends: name_text_base
+  x: 360
+  y: 60
+
+operation_cost_text:
+  extends: cost_text_base
+  x: 30
+
+operation_strength_text:
+  extends: strength_text_base
+
+operation_influence_text:
+  extends: influence_text_base
+  x: 380
+  y: 1914
+
+operation_trash_text:
+  extends: trash_text_base
+
+operation_subtypes_text:
+  extends: subtypes_text_base
+  x: 550
+  y: 1220
+
+operation_ability_text:
+  extends: ability_text_base
+  x: 130
+  y: 1350
+  width: 1240
+  height: 500
+
+operation_flavor_text:
+  extends: flavor_text_base
+  x: 130
+  y: 1770
+  width: 1240
+  height: 200
+
+operation_illus_text:
+  extends: illus_text_base
+  angle: -1.5708
+  x: 1350
+  y: 2000

@@ -1,0 +1,57 @@
+# Program layout
+
+card_template_program_anarch:
+  extends: card_template_base
+  file: "card_templates/program/program_anarch.png"
+
+card_template_program_criminal:
+  extends: card_template_base
+  file: "card_templates/program/program_criminal.png"
+
+card_template_program_neutral:
+  extends: card_template_base
+  file: "card_templates/program/program_neutral.png"
+
+card_template_program_shaper:
+  extends: card_template_base
+  file: "card_templates/program/program_shaper.png"
+
+program_artwork:
+  extends: artwork_base
+
+program_name_text:
+  extends: name_text_base
+
+program_cost_text:
+  extends: cost_text_base
+
+program_strength_text:
+  extends: strength_text_base
+
+program_influence_text:
+  extends: influence_text_base
+
+program_trash_text:
+  extends: trash_text_base
+
+program_subtypes_text:
+  extends: subtypes_text_base
+
+program_ability_text:
+  extends: ability_text_base
+
+program_flavor_text:
+  extends: flavor_text_base
+
+program_illus_text:
+  extends: illus_text_base
+
+mu_text:
+  x: 388
+  y: 102
+  width: 50
+  height: 50
+  font: 'Verdana,Bold 8'
+  color: "#444444"
+  align: :center
+  valign: :middle

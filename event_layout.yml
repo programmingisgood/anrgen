@@ -1,0 +1,63 @@
+# Event layout
+
+card_template_event_anarch:
+  extends: card_template_base
+  file: "card_templates/event/event_anarch.png"
+
+card_template_event_criminal:
+  extends: card_template_base
+  file: "card_templates/event/event_criminal.png"
+
+card_template_event_shaper:
+  extends: card_template_base
+  file: "card_templates/event/event_shaper.png"
+
+card_template_event_neutral:
+  extends: card_template_base
+  file: "card_templates/event/event_neutral.png"
+
+event_artwork:
+  extends: artwork_base
+
+event_name_text:
+  extends: name_text_base
+  x: 360
+  y: 60
+
+event_cost_text:
+  extends: cost_text_base
+  x: 18
+  y: 54
+
+event_strength_text:
+  extends: strength_text_base
+
+event_influence_text:
+  extends: influence_text_base
+
+event_trash_text:
+  extends: trash_text_base
+
+event_subtypes_text:
+  extends: subtypes_text_base
+  x: 390
+  y: 1292
+
+event_ability_text:
+  extends: ability_text_base
+  x: 130
+  y: 1350
+  width: 1240
+  height: 500
+
+event_flavor_text:
+  extends: flavor_text_base
+  x: 130
+  y: 1770
+  width: 1240
+  height: 200
+
+event_illus_text:
+  extends: illus_text_base
+  x: 800
+  y: 1200

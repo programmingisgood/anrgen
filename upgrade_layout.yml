@@ -1,0 +1,71 @@
+# Upgrade layout
+
+card_template_upgrade_hb:
+  extends: card_template_base
+  file: "card_templates/upgrade/upgrade_haas.png"
+
+card_template_upgrade_jinteki:
+  extends: card_template_base
+  file: "card_templates/upgrade/upgrade_jinteki.png"
+
+card_template_upgrade_nbn:
+  extends: card_template_base
+  file: "card_templates/upgrade/upgrade_nbn.png"
+
+card_template_upgrade_neutral:
+  extends: card_template_base
+  file: "card_templates/upgrade/upgrade_neutral.png"
+
+card_template_upgrade_weyland:
+  extends: card_template_base
+  file: "card_templates/upgrade/upgrade_weyland.png"
+
+upgrade_artwork:
+  extends: artwork_base
+
+upgrade_name_text:
+  extends: name_text_base
+  x: 140
+  y: 1070
+
+upgrade_cost_text:
+  extends: cost_text_base
+  x: 24
+  y: 66
+
+upgrade_strength_text:
+  extends: strength_text_base
+
+upgrade_influence_text:
+  extends: influence_text_base
+  x: 366
+  y: 1930
+
+upgrade_trash_text:
+  extends: trash_text_base
+  x: 1310
+  y: 1764
+
+upgrade_subtypes_text:
+  extends: subtypes_text_base
+  x: 508
+  y: 1204
+
+upgrade_ability_text:
+  extends: ability_text_base
+  x: 130
+  y: 1350
+  width: 1240
+  height: 500
+
+upgrade_flavor_text:
+  extends: flavor_text_base
+  x: 130
+  y: 1770
+  width: 1240
+  height: 200
+
+upgrade_illus_text:
+  extends: illus_text_base
+  x: 710
+  y: 1880

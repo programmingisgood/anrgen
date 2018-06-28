@@ -1,0 +1,85 @@
+# Agenda layout
+
+card_template_agenda_hb:
+  extends: card_template_base
+  file: "card_templates/agenda/agenda_haas.png"
+
+card_template_agenda_jinteki:
+  extends: card_template_base
+  file: "card_templates/agenda/agenda_jinteki.png"
+
+card_template_agenda_nbn:
+  extends: card_template_base
+  file: "card_templates/agenda/agenda_nbn.png"
+
+card_template_agenda_neutral:
+  extends: card_template_base
+  file: "card_templates/agenda/agenda_neutral.png"
+
+card_template_agenda_weyland:
+  extends: card_template_base
+  file: "card_templates/agenda/agenda_weyland.png"
+
+agenda_artwork:
+  extends: artwork_base
+
+agenda_name_text:
+  extends: name_text_base
+  x: 120
+  y: 100
+
+agenda_cost_text:
+  extends: cost_text_base
+  x: 1206
+  y: 6
+  color: "#333333"
+  font: 'Verdana,Bold 14'
+
+agenda_strength_text:
+  extends: strength_text_base
+
+agenda_influence_text:
+  extends: influence_text_base
+
+agenda_trash_text:
+  extends: trash_text_base
+
+agenda_subtypes_text:
+  extends: subtypes_text_base
+  x: 446
+  y: 1320
+  width: 1500
+
+agenda_ability_text:
+  extends: ability_text_base
+  x: 180
+  y: 1440
+  width: 1000
+  height: 600
+  align: :left
+  valign: :top
+  font: 'Verdana, 7'
+
+agenda_flavor_text:
+  extends: flavor_text_base
+  x: 150
+  y: 1830
+  width: 1200
+  height: 200
+
+agenda_illus_text:
+  extends: illus_text_base
+  angle: -1.5708
+  x: 1350
+  y: 1830
+  align: :left
+
+points_text:
+  x: 100
+  y: 1070
+  width: 100
+  height: 100
+  font: 'Verdana,Bold 14'
+  color: "#111111"
+  align: :center
+  valign: :middle

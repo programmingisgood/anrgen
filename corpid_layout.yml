@@ -1,0 +1,91 @@
+# Corp ID layout
+
+card_template_corpid_jinteki:
+  extends: card_template_base
+  file: "card_templates/identity/identity_jinteki.png"
+
+card_template_corpid_hb:
+  extends: card_template_base
+  file: "card_templates/identity/identity_haas.png"
+
+card_template_corpid_nbn:
+  extends: card_template_base
+  file: "card_templates/identity/identity_nbn.png"
+
+card_template_corpid_weyland:
+  extends: card_template_base
+  file: "card_templates/identity/identity_weyland.png"
+
+corpid_artwork:
+  extends: artwork_base
+
+corpid_name_text:
+  extends: name_text_base
+  x: 250
+  y: 100
+  width: 1000
+  font: 'Verdana,Bold 9'
+
+slogan_text:
+  x: 100
+  y: 230
+  width: 1000
+  height: 100
+  font: 'Verdana,Bold 6'
+  color: "#111111"
+  align: :left
+  valign: :middle
+  markup: true
+
+corpid_cost_text:
+  extends: cost_text_base
+
+corpid_strength_text:
+  extends: strength_text_base
+  x: 0
+  y: 1730
+  width: 300
+  height: 300
+  font: 'Verdana,Bold 10'
+
+corpid_influence_text:
+  extends: influence_text_base
+  x: 0
+  y: 1840
+  width: 300
+  height: 300
+  font: 'Verdana,Bold 10'
+  color: "#000000"
+
+corpid_trash_text:
+  extends: trash_text_base
+
+corpid_subtypes_text:
+  extends: subtypes_text_base
+  x: 510
+  y: 1540
+
+corpid_ability_text:
+  extends: ability_text_base
+  x: 290
+  y: 1700
+  width: 1180
+  height: 500
+  align: :left
+  valign: :top
+
+corpid_flavor_text:
+  extends: flavor_text_base
+  x: 230
+  y: 1950
+  width: 900
+  height: 150
+
+corpid_illus_text:
+  extends: illus_text_base
+  x: 1360
+  y: 800
+  color: "#eeeeee"
+  align: :right
+  valign: :middle
+  angle: -1.5708

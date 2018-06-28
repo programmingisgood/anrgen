@@ -1,0 +1,56 @@
+# Hardware layout
+
+card_template_hardware_anarch:
+  extends: card_template_base
+  file: "card_templates/hardware/hardware_anarch.png"
+
+card_template_hardware_criminal:
+  extends: card_template_base
+  file: "card_templates/hardware/hardware_criminal.png"
+
+card_template_hardware_neutral:
+  extends: card_template_base
+  file: "card_templates/hardware/hardware_neutral.png"
+
+card_template_hardware_shaper:
+  extends: card_template_base
+  file: "card_templates/hardware/hardware_shaper.png"
+
+hardware_artwork:
+  extends: artwork_base
+
+hardware_name_text:
+  extends: name_text_base
+  x: 260
+  y: 1050
+
+hardware_cost_text:
+  extends: cost_text_base
+  x: 26
+  y: 58
+
+hardware_strength_text:
+  extends: strength_text_base
+
+hardware_influence_text:
+  extends: influence_text_base
+
+hardware_trash_text:
+  extends: trash_text_base
+
+hardware_subtypes_text:
+  extends: subtypes_text_base
+  x: 600
+  y: 1226
+
+hardware_ability_text:
+  extends: ability_text_base
+
+hardware_flavor_text:
+  extends: flavor_text_base
+
+hardware_illus_text:
+  extends: illus_text_base
+  x: 160
+  y: 1906
+  align: :left

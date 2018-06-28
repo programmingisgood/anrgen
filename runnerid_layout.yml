@@ -1,0 +1,96 @@
+# Runner ID layout
+
+card_template_runnerid_anarch:
+  extends: card_template_base
+  file: "card_templates/identity/identity_anarch.png"
+
+card_template_runnerid_criminal:
+  extends: card_template_base
+  file: "card_templates/identity/identity_criminal.png"
+
+card_template_runnerid_neutral:
+  extends: card_template_base
+  file: "card_templates/identity/identity_neutral.png"
+
+card_template_runnerid_shaper:
+  extends: card_template_base
+  file: "card_templates/identity/identity_shaper.png"
+
+runnerid_artwork:
+  extends: artwork_base
+
+runnerid_name_text:
+  extends: name_text_base
+  x: 490
+  y: 60
+  width: 1000
+  font: 'Verdana,Bold 7'
+
+subname_text:
+  x: 678
+  y: 154
+  width: 1000
+  height: 100
+  font: 'Verdana,Bold 6'
+  color: "#111111"
+  align: :left
+  valign: :middle
+  markup: true
+
+runnerid_cost_text:
+  extends: cost_text_base
+  x: 20
+  y: 30
+  width: 300
+  height: 300
+  font: 'Verdana,Bold 16'
+
+runnerid_strength_text:
+  extends: strength_text_base
+  x: 1194
+  y: 1730
+  width: 300
+  height: 300
+  font: 'Verdana,Bold 10'
+
+runnerid_influence_text:
+  extends: influence_text_base
+  x: 1194
+  y: 1840
+  width: 300
+  height: 300
+  font: 'Verdana,Bold 10'
+  color: "#000000"
+
+runnerid_trash_text:
+  extends: trash_text_base
+
+runnerid_subtypes_text:
+  extends: subtypes_text_base
+  x: 550
+  y: 1540
+
+runnerid_ability_text:
+  extends: ability_text_base
+  x: 230
+  y: 1700
+  width: 980
+  height: 500
+  align: :left
+  valign: :top
+
+runnerid_flavor_text:
+  extends: flavor_text_base
+  x: 230
+  y: 1950
+  width: 900
+  height: 150
+
+runnerid_illus_text:
+  extends: illus_text_base
+  x: 1360
+  y: 1150
+  color: "#eeeeee"
+  align: :right
+  valign: :middle
+  angle: -1.5708

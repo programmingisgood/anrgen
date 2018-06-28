@@ -1,0 +1,116 @@
+# Global shared layout
+
+cut_line:
+  x: 0
+  y: 0
+  width: 1500
+  height: 2100
+  radius: 0
+  stroke_color: "#000000"
+  stroke_width: 8
+
+artwork_base:
+  x: 0
+  y: 0
+  width: 1500
+  height: 1500
+
+card_template_base:
+  x: 0
+  y: 0
+  width: 1500
+  height: 2100
+
+name_text_base:
+  x: 100
+  y: 950
+  width: 1000
+  height: 100
+  font: 'Verdana,Bold 8'
+  color: "#111111"
+  align: :left
+  valign: :middle
+  markup: true
+
+cost_text_base:
+  x: 20
+  y: 50
+  width: 300
+  height: 300
+  font: 'Verdana,Bold 10'
+  color: "#EEEEEE"
+  align: :center
+  valign: :middle
+
+strength_text_base:
+  x: 0
+  y: 1830
+  width: 300
+  height: 300
+  font: 'Verdana,Bold 15'
+  color: "#111111"
+  align: :center
+  valign: :middle
+
+influence_text_base:
+  x: 1370
+  y: 1640
+  width: 100
+  height: 100
+  font: 'Verdana,Bold 10'
+  color: "#eeeeee"
+  align: :center
+  valign: :middle
+
+trash_text_base:
+  x: 1294
+  y: 1744
+  width: 100
+  height: 100
+  font: 'Verdana,Bold 10'
+  color: "#111111"
+  align: :center
+  valign: :middle
+
+subtypes_text_base:
+  x: 480
+  y: 1106
+  width: 1000
+  height: 100
+  font: 'Verdana,Bold 6'
+  color: "#111111"
+  align: :left
+  valign: :middle
+
+ability_text_base:
+  x: 120
+  y: 1300
+  width: 1260
+  height: 500
+  markup: true
+  font: 'Verdana, 6'
+  color: "#111111"
+  align: :center
+  valign: :middle
+
+flavor_text_base:
+  x: 300
+  y: 1800
+  width: 900
+  height: 200
+  markup: true
+  font: 'Verdana, Italic 4'
+  color: "#111111"
+  align: :center
+  valign: :top
+
+illus_text_base:
+  x: 800
+  y: 866
+  width: 650
+  height: 100
+  markup: true
+  font: 'Verdana, Italic 5'
+  color: "#111111"
+  align: :right
+  valign: :middle

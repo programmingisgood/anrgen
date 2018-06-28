@@ -1,0 +1,61 @@
+# Program layout
+
+card_template_asset_hb:
+  extends: card_template_base
+  file: "card_templates/asset/asset_haas.png"
+
+card_template_asset_jinteki:
+  extends: card_template_base
+  file: "card_templates/asset/asset_jinteki.png"
+
+card_template_asset_nbn:
+  extends: card_template_base
+  file: "card_templates/asset/asset_nbn.png"
+
+card_template_asset_neutral:
+  extends: card_template_base
+  file: "card_templates/asset/asset_neutral.png"
+
+card_template_asset_weyland:
+  extends: card_template_base
+  file: "card_templates/asset/asset_weyland.png"
+
+asset_artwork:
+  extends: artwork_base
+
+asset_name_text:
+  extends: name_text_base
+  x: 120
+  y: 1050
+
+asset_cost_text:
+  extends: cost_text_base
+  x: 32
+  y: 44
+
+asset_strength_text:
+  extends: strength_text_base
+
+asset_influence_text:
+  extends: influence_text_base
+  x: 380
+  y: 1914
+
+asset_trash_text:
+  extends: trash_text_base
+
+asset_subtypes_text:
+  extends: subtypes_text_base
+  x: 420
+  y: 1182
+
+asset_ability_text:
+  extends: ability_text_base
+
+asset_flavor_text:
+  extends: flavor_text_base
+
+asset_illus_text:
+  extends: illus_text_base
+  x: 800
+  y: 1866
